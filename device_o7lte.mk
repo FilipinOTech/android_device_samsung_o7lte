@@ -5,7 +5,7 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/o7lte/o7lte-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/o7lte/overlay
+#DEVICE_PACKAGE_OVERLAYS += device/samsung/o7lte/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
