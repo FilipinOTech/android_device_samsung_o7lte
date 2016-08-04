@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := o7lte
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/o7lte/device_o7lte.mk)
+$(call inherit-product, device/samsung/o7lte/full_o7lte.mk)
 
 # Override build fingerprints.
 PRODUCT_BUILD_PROP_OVERRIDES += \
