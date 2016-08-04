@@ -11,5 +11,5 @@ $(call inherit-product, device/samsung/o7lte/device_o7lte.mk)
 PRODUCT_DEVICE := o7lte
 PRODUCT_NAME := cm_o7lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := o7lte
+PRODUCT_MODEL := SM-G600FY
 PRODUCT_MANUFACTURER := samsung
