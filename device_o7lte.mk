@@ -15,7 +15,7 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Local Path
-LOCAL_PATH := device/samsung/on7lte
+LOCAL_PATH := device/samsung/o7lte
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
